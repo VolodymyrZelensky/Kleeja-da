@@ -38,5 +38,6 @@ class Kleeja : public QMainWindow
 
 	private:
 		Ui::Kleeja *ui;
+		bool AreYouOnline();
 };
 #endif // KLEEJA_H
