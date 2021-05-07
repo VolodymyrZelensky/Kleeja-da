@@ -14,9 +14,12 @@ Kleeja::~Kleeja()
 	delete ui;
 }
 
-static bool AreYouOnline(){
-	if(QProcess::execute("ping -n 1 1.1.1.1") == 0) return true;
-	else return false;
+bool Kleeja::AreYouOnline(){
+	if(QProcess::execute("ping -n 1 www.google.com") == 0){
+		return true;
+	}else{
+		return false;
+	}
 }
 
 void Kleeja::on_btn_upload_clicked()
@@ -32,7 +35,7 @@ void Kleeja::on_btn_upload_clicked()
 			messageBox.exec();
 			return;
 		}
-		if(!AreYouOnline()){
+		if(!this->AreYouOnline()){
 			QMessageBox messageBox;
 			messageBox.setIcon(QMessageBox::Information);
 			messageBox.setWindowIcon(QIcon(":/images/assets/favicon-32x32.ico"));
