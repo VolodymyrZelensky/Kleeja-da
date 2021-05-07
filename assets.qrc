@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="images">
+    <file>assets/headericon.png</file>
+    <file>assets/slider.png</file>
+    <file>assets/copy.png</file>
+    <file>assets/favicon-32x32.ico</file>
+    <file>assets/whitelogo.png</file>
+  </qresource>
+</RCC>
