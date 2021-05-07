@@ -16,8 +16,8 @@ Kleeja Open Source Desktop Application (Windows / Linux / Mac)
 `you need to add Qt bin directory to your PATH`
 
 ```cmd
-~$ qmake ./Kleeja-da.pro
-~$ mingw32-make.exe
+C:\> qmake ./Kleeja-da.pro
+C:\> mingw32-make.exe
 ```
 ### Mac
 `i'am poor :(`
