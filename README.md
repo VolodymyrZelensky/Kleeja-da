@@ -1,7 +1,7 @@
 # Kleeja-da
 Kleeja Open Source Desktop Application (Windows / Linux / Mac)
 
-### What is Kleja ?
+### What is Kleeja ?
 [Kleeja](http://kleeja.net/) is open source File Hosting web application
 
 
