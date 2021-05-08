@@ -24,7 +24,7 @@ C:\> qmake ./Kleeja-da.pro
 C:\> mingw32-make.exe
 ```
 ### Mac
-`i'm poor :(`
+`I am not rich `
 
 # support
 
